@@ -37,21 +37,21 @@ Build a Flutter app for Pakistani passport OCR using clean architecture principl
 
 ## 🎯 **Phase 2: Domain Layer (Core Business Logic)**
 
-### 2.1 Domain Entities
+### 2.1 Domain Entities ✅
 
-- [ ] Create `PassportData` entity with validation methods
+- [x] Create `PassportData` entity with validation methods
   - fullName, passportNumber, nationality, dateOfBirth, expiryDate
   - Validation logic for Pakistani passport format
   - Equatable implementation
-- [ ] Create `OCRResult` entity
+- [x] Create `OCRResult` entity
   - rawText, confidence, processedData
   - Validation and parsing helpers
-- [ ] Create `MRZData` entity for raw MRZ line data
+- [x] Create `MRZData` entity for raw MRZ line data
 
-### 2.2 Failure Classes (Dartz Integration)
+### 2.2 Failure Classes (Dartz Integration) ✅
 
-- [ ] Create abstract `Failure` base class
-- [ ] Implement specific failure types:
+- [x] Create abstract `Failure` base class
+- [x] Implement specific failure types:
   - `OCRFailure` - OCR processing errors
   - `CameraFailure` - Camera access/capture errors
   - `ValidationFailure` - Data validation errors
