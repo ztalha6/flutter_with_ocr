@@ -58,13 +58,13 @@ Build a Flutter app for Pakistani passport OCR using clean architecture principl
   - `ParsingFailure` - MRZ parsing errors
   - `PermissionFailure` - Permission denied errors
 
-### 2.3 Repository Interfaces
+### 2.3 Repository Interfaces ✅
 
-- [ ] Create `PassportRepository` abstract class
+- [x] Create `PassportRepository` abstract class
   - `scanPassport(String imagePath)` → `Either<Failure, OCRResult>`
   - `parsePassportData(String mrzText)` → `Either<Failure, PassportData>`
   - `validatePassportData(PassportData data)` → `Either<Failure, bool>`
-- [ ] Create `CameraRepository` abstract class
+- [x] Create `CameraRepository` abstract class
   - `captureImage()` → `Either<Failure, String>`
   - `checkPermissions()` → `Either<Failure, bool>`
 
