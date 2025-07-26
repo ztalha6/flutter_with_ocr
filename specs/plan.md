@@ -68,14 +68,14 @@ Build a Flutter app for Pakistani passport OCR using clean architecture principl
   - `captureImage()` → `Either<Failure, String>`
   - `checkPermissions()` → `Either<Failure, bool>`
 
-### 2.4 Use Cases
+### 2.4 Use Cases ✅
 
-- [ ] Create base `UseCase<Type, Params>` abstract class
-- [ ] Implement `ScanPassport` use case
-- [ ] Implement `ParseMRZ` use case
-- [ ] Implement `ValidatePassportData` use case
-- [ ] Implement `CapturePassportImage` use case
-- [ ] Create parameter classes for each use case
+- [x] Create base `UseCase<Type, Params>` abstract class
+- [x] Implement `ScanPassport` use case
+- [x] Implement `ParseMRZ` use case
+- [x] Implement `ValidatePassportData` use case
+- [x] Implement `CapturePassportImage` use case
+- [x] Create parameter classes for each use case
 
 **Manual Test Checkpoint:** Create mock implementations and verify interface contracts
 
